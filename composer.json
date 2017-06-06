@@ -1,7 +1,7 @@
 {
     "name": "faustbrian/gratipay-php-client",
     "description": "A Gratipay Client for PHP",
-    "keywords": ["api", "faustbrian", "faustbrian-gratipay", "gratipay", "Brian Faust", "faustbrian"],
+    "keywords": ["api", "gratipay", "Brian Faust", "faustbrian"],
     "license": "MIT",
     "authors": [{
         "name": "Brian Faust",
