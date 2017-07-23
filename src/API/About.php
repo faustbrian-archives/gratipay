@@ -11,8 +11,8 @@
 
 namespace BrianFaust\Gratipay\API;
 
-use BrianFaust\Gratipay\AbstractAPI;
 use BrianFaust\Http\HttpResponse;
+use BrianFaust\Gratipay\AbstractAPI;
 
 class About extends AbstractAPI
 {
