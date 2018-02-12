@@ -13,8 +13,8 @@ declare(strict_types=1);
 
 namespace BrianFaust\Gratipay\API;
 
-use BrianFaust\Http\HttpResponse;
 use BrianFaust\Gratipay\AbstractAPI;
+use BrianFaust\Http\HttpResponse;
 
 class About extends AbstractAPI
 {
