@@ -5,22 +5,22 @@ declare(strict_types=1);
 /*
  * This file is part of Gratipay PHP Client.
  *
- * (c) Brian Faust <hello@brianfaust.me>
+ * (c) Brian Faust <hello@basecode.sh>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace BrianFaust\Gratipay\API;
+namespace Plients\Gratipay\API;
 
-use BrianFaust\Gratipay\AbstractAPI;
+use Plients\Gratipay\AbstractAPI;
 
 class User extends AbstractAPI
 {
     /**
      * @param string $username
      *
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function charts(string $username): HttpResponse
     {
@@ -30,7 +30,7 @@ class User extends AbstractAPI
     /**
      * @param string $username
      *
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function profile(string $username): HttpResponse
     {
@@ -40,7 +40,7 @@ class User extends AbstractAPI
     /**
      * @param string $username
      *
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function tips(string $username): HttpResponse
     {
@@ -51,7 +51,7 @@ class User extends AbstractAPI
      * @param string $username
      * @param float  $amount
      *
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function tip(string $username, float $amount): HttpResponse
     {

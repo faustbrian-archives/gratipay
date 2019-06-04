@@ -5,21 +5,21 @@ declare(strict_types=1);
 /*
  * This file is part of Gratipay PHP Client.
  *
- * (c) Brian Faust <hello@brianfaust.me>
+ * (c) Brian Faust <hello@basecode.sh>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace BrianFaust\Gratipay\API;
+namespace Plients\Gratipay\API;
 
-use BrianFaust\Gratipay\AbstractAPI;
-use BrianFaust\Http\HttpResponse;
+use Plients\Gratipay\AbstractAPI;
+use Plients\Http\HttpResponse;
 
 class About extends AbstractAPI
 {
     /**
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function charts(): HttpResponse
     {
@@ -27,7 +27,7 @@ class About extends AbstractAPI
     }
 
     /**
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function paydays(): HttpResponse
     {
@@ -35,7 +35,7 @@ class About extends AbstractAPI
     }
 
     /**
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function stats(): HttpResponse
     {
